@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+    min-height: 150vh;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    max-width: 960px;
+    max-height: 960px;
+}
+
+div.grid{
+    border: 1px solid black;
+}
+button{
+    display: inline-block;
+    border-radius: .5em;
+    padding: 8px 16px;
+    background-color: green;
+    color: whitesmoke;
+    margin-bottom: 24px;
+}
+.color-options{
+    margin-bottom: 12px;
+}
